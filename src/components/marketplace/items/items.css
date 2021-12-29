@@ -1,0 +1,61 @@
+.card_one {
+  height: 340px;
+  background-color: #d3e8ff;
+  background: #d3e8ff;
+  border-radius: 10px;
+}
+.card {
+  border: none;
+}
+.card_two {
+  background-color: #c5eefa !important;
+}
+
+.card_img {
+  height: 270px;
+  background-color: #d3e8ff;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 20px 10px;
+}
+
+.card_img > div:last-of-type img {
+  width: 140px;
+  margin: auto;
+}
+
+.card_info {
+  font-family: Calibre;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 26px;
+  color: #2a2825;
+}
+
+.dashed_line {
+  border-bottom: 2px dashed rgba(0, 0, 0, 0.315);
+}
+
+.card_info_total {
+  font-family: Calibre;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ababab;
+}
+
+.card_info_total span {
+  font-family: Calibre;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #2a2825;
+}
+
+@media (max-width: 575px) {
+  .card_img > div:last-of-type img {
+  }
+}

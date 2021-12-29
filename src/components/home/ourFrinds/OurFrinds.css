@@ -1,0 +1,25 @@
+.section_title {
+  font-family: Calibre;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  /* line-height: 48px; */
+  color: #2a2825;
+}
+
+.company_logo_box {
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 10px !important;
+}
+
+.company_logo_box img {
+  width: 100%;
+}
+@media (max-width: 575px) {
+  .company_logo_box img {
+    width: 50%;
+  }
+}

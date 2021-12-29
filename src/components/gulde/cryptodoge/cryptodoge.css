@@ -1,0 +1,14 @@
+.left_guid {
+  background-color: #f3f5f6;
+  display: flex;
+  overflow: hidden;
+  justify-content: flex-end;
+}
+.crybto {
+  overflow: hidden;
+}
+@media (max-width: 992px) {
+  .left_guid {
+    justify-content: center;
+  }
+}

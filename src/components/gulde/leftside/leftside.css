@@ -1,0 +1,31 @@
+.left_accordion {
+  width: 70%;
+}
+.left_accordion .title {
+  background-color: #e73b89;
+  margin-top: 40px;
+  padding: 20px;
+  margin-bottom: 20px;
+  color: white;
+}
+.left_accordion .accordion-item {
+  border: none;
+  margin: 10px 0;
+}
+.left_accordion .accordion-collapse {
+  background-color: #f3f5f6 !important;
+}
+.left_accordion .accordion-item .accordion-header button.collapsed {
+  color: rgb(114, 114, 114) !important;
+}
+.left_accordion .accordion-item .accordion-header button {
+  color: #e73b89 !important;
+  background-color: #f3f5f6 !important;
+  font-size: 20px;
+  font-weight: 700;
+}
+@media (max-width: 992px) {
+  .left_accordion .accordion-item {
+    margin: 0;
+  }
+}

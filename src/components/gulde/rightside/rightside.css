@@ -1,0 +1,18 @@
+.guide_left_portion {
+  padding-left: 40px !important;
+  padding-right: 20px !important;
+  text-align: justify;
+}
+.para span {
+  color: #e73b89;
+}
+.para {
+  font-weight: 500;
+  font-size: 15px;
+  color: rgb(70, 70, 70);
+}
+@media (max-width: 992px) {
+  .guide_left_portion {
+    padding-right: 40px !important;
+  }
+}

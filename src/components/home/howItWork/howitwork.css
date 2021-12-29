@@ -1,0 +1,69 @@
+.section-1 {
+  background-image: url(../../../Assets/Section1-back.png);
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  /* width: 50%; */
+  /* background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+
+/* .section-1 image{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
+.section-1-img {
+  width: 48%;
+}
+
+.heading {
+  font-family: Calibre;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 100px;
+  /* line-height: 120px; */
+  line-height: 90px;
+  color: #2a2825;
+}
+
+.section-1-pera {
+  font-family: Calibre;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 50px;
+  line-height: 60px;
+  color: #2a2825;
+}
+.Button-sec .front_btn {
+  width: 165px;
+  height: 54px;
+  background: #f59f19;
+  border-radius: 5px;
+  font-family: Calibre;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #ffffff;
+  border-bottom: 4px solid #0fc5b5 !important;
+  border: none;
+  padding-top: 4px !important;
+
+  /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+@media (max-width: 992px) {
+  .heading {
+    text-align: center;
+    font-size: 70px;
+  }
+  .section-1-pera {
+    font-size: 40px;
+  }
+}
