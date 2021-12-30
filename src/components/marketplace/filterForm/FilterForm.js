@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./filterform.css";
 import Filter from "../../../Assets/Filter.png";
 import Search from "../../../Assets/Search.png";
-
+import Mycontext from "../../../store";
 const FilterForm = () => {
+  const ctx = useContext(Mycontext);
   return (
     <div className="container">
       <div className="row m-0 pt-1 pb-1 mt-5">
@@ -32,6 +33,10 @@ const FilterForm = () => {
               placeholder="Search"
               aria-label="Username"
               aria-describedby="basic-addon1"
+              value={ctx.filtertext}
+              onChange={(e) => {
+                ctx.setfiltertext(e.target.value);
+              }}
             />
             <div className="input-group-append">
               <span
