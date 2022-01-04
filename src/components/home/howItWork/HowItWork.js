@@ -2,7 +2,8 @@ import React from "react";
 import section1 from "../../../Assets/Section_1_IMG.png";
 import PlayBtn from "../../../Assets/Play_Button.png";
 import "./howitwork.css";
-
+// import PhantomConnect from "./../../phantom/PhantomConnect";
+import PhantomConnect from "../../phantom/WalletPhantom";
 const HowItWork = () => {
   return (
     <div>
@@ -22,7 +23,8 @@ const HowItWork = () => {
           <div className="row m-0 mt-2 mt-lg-4 d-flex justify-content-center align-items-center">
             <div className="col-12 col-lg-3 p-0 pl-2 pr-2 top_btn d-flex justify-content-around align-items-center Button-sec">
               <button className="front_btn">obtain free topdoge</button>
-              {/*<button className="front_btn">spectate a doge race</button>*/}
+              {/* <PhantomConnect /> */}
+              <PhantomConnect />
             </div>
           </div>
 

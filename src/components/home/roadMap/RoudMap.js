@@ -14,7 +14,7 @@ const RoudMap = () => {
           </div>
 
           <div className="row m-0 mt-5 row-cols-1 row-cols-md-2 g-5">
-            <div class="col">
+            <div className="col">
               <div className="timeline_box p-0">
                 <div className="timeline_header pt-3 d-flex align-items-center justify-content-center">
                   <p className="mb-0">1st track</p>
@@ -69,7 +69,7 @@ const RoudMap = () => {
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div className="col">
               <div className="timeline_box p-0  ">
                 <div className="timeline_header pt-3 d-flex align-items-center justify-content-center">
                   <p className="mb-0">2nd track</p>

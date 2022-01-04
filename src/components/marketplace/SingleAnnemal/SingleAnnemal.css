@@ -1,0 +1,10 @@
+.SingleAnnemal img {
+  width: 300px;
+  display: block;
+}
+.SingleAnnemal {
+  padding-top: 30px;
+}
+.SingleAnnemal .desc {
+  color: grey;
+}
